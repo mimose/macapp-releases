@@ -2,15 +2,16 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <item>
-      <title>0.4.0</title>
-      <description><![CDATA[<ul><li>Posters now come in 4:5 and 1:1 as well, plus a new Minimal template. Neon, Film and Magazine are Pro templates you can preview first</li><li>Pro vivid colors: Prism, Holo, Neon Pulse and Aurora Flow shift as you type, with a 30-second trial</li><li>Pro custom colors: up to 4, with three colors, brightness and flow speed</li><li>Rename a take right on its card; exporting from the library opens the card so you can pick size and template</li><li>Replays play your current sound, stop with a second click, and only one plays at a time</li><li>Hover a color or sound to see its name; unlocked Pro items are marked in gold</li><li>The installer now shows the Cadence icon</li></ul>]]></description>
-      <description xml:lang="zh-Hans"><![CDATA[<ul><li>海报新增 4:5、1:1 两种尺寸，并新增简约模板；霓虹、胶片、杂志为 Pro 模板，可先预览</li><li>Pro 炫彩配色：幻彩、全息、霓虹脉冲、极光流动，颜色随演出流动，可试用 30 秒</li><li>Pro 自定义配色：最多 4 个，可调三种颜色、亮度与流动速度</li><li>片段卡可直接修改标题；片段库点导出会打开片段卡选择尺寸和模板</li><li>回放带上当前音效，再点一次即可停止，同一时间只回放一段</li><li>配色与音效悬停时显示名称；Pro 项解锁后以金色标记</li><li>安装包显示 Cadence 图标</li></ul>]]></description>
-      <sparkle:version>2611021721</sparkle:version>
-      <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+      <title>0.4.1</title>
+      <description><![CDATA[<ul><li>Today&#x27;s key count now resets at midnight, even if Cadence stays open</li></ul>]]></description>
+      <description xml:lang="zh-Hans"><![CDATA[<ul><li>今日按键数过零点自动归零，App 不退出也会从新的一天重新计数</li></ul>]]></description>
+      <sparkle:version>2611030957</sparkle:version>
+      <sparkle:shortVersionString>0.4.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/mimose/macapp-releases/releases/download/cadence/0.4.0/Cadence-0.4.0.zip" length="7781385"
-                 type="application/octet-stream" sparkle:edSignature="wElScOTeHvOa+pr6eImz0zzdbJjWvX5UvXPQHARfgcuph00b2sEBjO3FtoJMNOr5immVGsa2xhnawYp3JTUzCQ=="/>
+      <enclosure url="https://github.com/mimose/macapp-releases/releases/download/cadence/0.4.1/Cadence-0.4.1.zip" length="7783798"
+                 type="application/octet-stream" sparkle:edSignature="u2b2iyMXx+tQZ4GH1Qzonx4O4s1hmoZnM4eOnsrWQZ3noeXHsDbQTGQjlrZltkk7VU/ig4kKAbManB58za8lBw=="/>
     </item>
+
 
 
 
