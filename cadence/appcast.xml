@@ -2,13 +2,15 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <item>
-      <title>0.2.0</title>
-      <sparkle:version>200</sparkle:version>
-      <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+      <title>0.2.1</title>
+      <sparkle:version>201</sparkle:version>
+      <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/mimose/macapp-releases/releases/download/cadence/0.2.0/Cadence-0.2.0.zip" length="1918899"
-                 type="application/octet-stream" sparkle:edSignature="RC65VE1TLZz3pVYD+w1q4pRAyMc2cf7iyrOZuKImM5J6WFtiuNLN/ChoFzvN34QrqtLk603sVJgRvTpb0bXqDw=="/>
+      <enclosure url="https://github.com/mimose/macapp-releases/releases/download/cadence/0.2.1/Cadence-0.2.1.zip" length="8561126"
+                 type="application/octet-stream" sparkle:edSignature="6TXYLpvpw2OkhplBrixX7vcPZVxmg0W/vJwieYa9uCvn5PzUHKOzk3tw+is0T5Ls+WwrUqXVOWptfdAsY/dDDw=="/>
     </item>
+
+
 
 
 
