@@ -2,15 +2,16 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <item>
-      <title>0.2.6</title>
-      <description><![CDATA[<ul><li>Now runs natively on Intel Macs as well as Apple silicon, from the same download</li><li>The installer window shows the drag-to-install guide again</li></ul>]]></description>
-      <description xml:lang="zh-Hans"><![CDATA[<ul><li>支持 Intel 芯片的 Mac：同一个安装包，Apple 芯片与 Intel 都能原生运行</li><li>安装包打开时显示拖拽引导背景</li></ul>]]></description>
-      <sparkle:version>2611021003</sparkle:version>
-      <sparkle:shortVersionString>0.2.6</sparkle:shortVersionString>
+      <title>0.3.0</title>
+      <description><![CDATA[<ul><li>New key sounds: pick one under Sound in the console. Tap and Drop are free; volume sits next to brightness and speed</li><li>Cadence Pro: Scale, Music Box, Mechanical and Drums sounds, with a 30-second preview. Buy or activate from the gold lock at the bottom of the console</li><li>The preview button now plays the current sound</li></ul>]]></description>
+      <description xml:lang="zh-Hans"><![CDATA[<ul><li>新增按键音效：在控制台「音效」里选择，轻敲、水滴免费；音量与亮度、速度并排调节</li><li>Cadence Pro：音阶、八音盒、机械轴、鼓组等 Pro 音效，可先试听 30 秒；控制台底部金色锁处购买或激活</li><li>预览按钮会按当前音色发声</li></ul>]]></description>
+      <sparkle:version>2611021620</sparkle:version>
+      <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/mimose/macapp-releases/releases/download/cadence/0.2.6/Cadence-0.2.6.zip" length="7565109"
-                 type="application/octet-stream" sparkle:edSignature="B3vHGE6OG0XywwiPSjEXla4Bh0fLpQdV9paBlJYfEcNWX6+m6cMB9y3ymnas+fYQ0gX0/YPbvosRI4Wjc0dfCg=="/>
+      <enclosure url="https://github.com/mimose/macapp-releases/releases/download/cadence/0.3.0/Cadence-0.3.0.zip" length="7673224"
+                 type="application/octet-stream" sparkle:edSignature="HDBd85TMZKX8qD8gul2COK5ijmQrG9bxND86H1LyfrWOgz32mX9U1pXndiDldZKT2qXm1Z6n2pm3UXTy8V/JBQ=="/>
     </item>
+
 
 
 
