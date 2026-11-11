@@ -2,15 +2,16 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <item>
-      <title>0.2.2</title>
-      <description><![CDATA[<ul><li>When an update is available, the console shows &quot;Update&quot; and the menu bar icon and island get a small blue dot — one click to update</li><li>The update window now includes release notes in Chinese and English</li><li>Rebuilt Library window: centered, closes with a single click</li><li>Styles now show two rows; smoother &quot;More&quot; panel in the console</li></ul>]]></description>
-      <description xml:lang="zh-Hans"><![CDATA[<ul><li>有新版本时控制台顶部显示「新版本」，菜单栏图标与灵动岛亮起小蓝点，点一下即可更新</li><li>更新窗口附带中英版本说明</li><li>片段库窗口重做：居中显示、一次点击即可关闭</li><li>演出风格常驻两行，控制台「更多」展开更顺滑</li></ul>]]></description>
-      <sparkle:version>202</sparkle:version>
-      <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
+      <title>0.2.3</title>
+      <description><![CDATA[<ul><li>The installer now explains what to do if macOS blocks the first launch: Privacy &amp; Security → Open Anyway</li><li>Installer text is now English-first with Chinese below</li><li>More reliable update flow</li></ul>]]></description>
+      <description xml:lang="zh-Hans"><![CDATA[<ul><li>安装包新增首次打开指引：被系统拦截时，按提示在「隐私与安全性」中点「仍要打开」</li><li>安装包提示改为英文优先、中文辅助</li><li>更新流程稳定性改进</li></ul>]]></description>
+      <sparkle:version>203</sparkle:version>
+      <sparkle:shortVersionString>0.2.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/mimose/macapp-releases/releases/download/cadence/0.2.2/Cadence-0.2.2.zip" length="8572671"
-                 type="application/octet-stream" sparkle:edSignature="P5M8Uvg3zGuaZ9vcieRuDSbpLDHq55GHLLIKJ2LziIjOQZjb1xys/6btLx2+hH20z9LLO3JOVs0AIg4xUcoxBA=="/>
+      <enclosure url="https://github.com/mimose/macapp-releases/releases/download/cadence/0.2.3/Cadence-0.2.3.zip" length="8572701"
+                 type="application/octet-stream" sparkle:edSignature="vP8sXgtoDCKAJi9FEtoXjzlEPZ30GfpBefK5ST6JK8gma4/dPGthsz61ES/0KhwcNUKRUFIbRLqxqqker6jEBQ=="/>
     </item>
+
 
 
 
