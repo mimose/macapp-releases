@@ -40,7 +40,7 @@ The app updates itself. Its Sparkle feed is [`cadence/appcast.xml`](cadence/appc
 ## Textime
 
 A quiet text editor for macOS. It recognizes Markdown, JSON, YAML, CSV, TOML and PlantUML by extension — write on the left, see on the right.
-Free, 2 MB, Apple silicon & Intel, macOS 13+. Download the `.zip` from the [latest textime release](https://github.com/mimose/macapp-releases/releases?q=textime%2F&expanded=true), unzip and drag Textime into Applications.
+Free, 2 MB, Apple silicon & Intel, macOS 13+. Download the `.dmg` from the [latest textime release](https://github.com/mimose/macapp-releases/releases?q=textime%2F&expanded=true) and drag Textime into Applications.
 
 - Preview by format, with errors marked on the line they occur
 - Encoding detection and switching, line endings, search and replace with newlines
@@ -56,5 +56,7 @@ Free, 2 MB, Apple silicon & Intel, macOS 13+. Download the `.zip` from the [late
 ```bash
 ./publish.sh <app source dir> <version>     # e.g. ./publish.sh ../textime 0.1.6
 ```
+
+DMG: `tools/make-dmg.sh <App.app> <out.dmg> [background.tiff]` — drag-to-Applications layout; the background is generated from the app name when omitted.
 
 Each app keeps a `release.conf` in its source root (name, tag prefix, assets, release notes). See the header of [`publish.sh`](publish.sh).
