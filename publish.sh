@@ -11,6 +11,13 @@
 #   ASSETS=(dist/Textime-$VERSION.zip)  # 要上传的文件；以 ? 开头表示可选
 #   NOTES_DIR=release-notes             # 可选：<版本>.zh.md / <版本>.en.md，每行「- 一条」
 #   MAKE_LATEST=false                   # 可选：是否标记为仓库的 Latest release
+#   SITE_DIR=site                       # 可选：官网目录，发布后写入固定下载地址与 appcast
+#   PAGES_PROJECT=textime               # 可选：设置后用 wrangler 部署 SITE_DIR 到 Cloudflare Pages
+#   SITE_GIT=true                       # 可选：官网由 git 推送自动部署时，提交并推送 SITE_DIR 的这两个文件
+#
+# 官网固定地址（SITE_DIR 生效时）：
+#   /download/<APP>.<后缀>  302 到本次版本的 <APP>-<版本>.<后缀>（由 _redirects 生成）
+#   /appcast.xml            本次的 appcast 副本，可作 Sparkle feed（国内访问 raw.githubusercontent 不稳定）
 #
 # 产物里有 appcast.xml 时，同时写到仓库 <SLUG>/appcast.xml，作为该应用固定的 Sparkle feed：
 #   https://raw.githubusercontent.com/mimose/macapp-releases/master/<SLUG>/appcast.xml
@@ -25,7 +32,7 @@ BRANCH="${RELEASE_BRANCH:-master}"
 
 CONF="$APP_ROOT/release.conf"
 [ -f "$CONF" ] || { echo "✗ 缺少 $CONF"; exit 1; }
-APP=""; SLUG=""; ASSETS=(); NOTES_DIR=""; MAKE_LATEST=false
+APP=""; SLUG=""; ASSETS=(); NOTES_DIR=""; MAKE_LATEST=false; SITE_DIR=""; PAGES_PROJECT=""; SITE_GIT=false
 # shellcheck disable=SC1090
 source "$CONF"
 [ -n "$APP" ] && [ -n "$SLUG" ] && [ ${#ASSETS[@]} -gt 0 ] || { echo "✗ release.conf 需要 APP、SLUG、ASSETS"; exit 1; }
@@ -116,6 +123,30 @@ PY
 )"
   curl -sf "${auth[@]}" -X PUT "$API/contents/$path" -d "$body" >/dev/null
   echo "    ✓ feed -> https://raw.githubusercontent.com/$REPO/$BRANCH/$path"
+fi
+
+# ---------- 官网固定地址 ----------
+if [ -n "$SITE_DIR" ]; then
+  [ -d "$SITE_DIR" ] || { echo "✗ 缺少官网目录 $SITE_DIR"; exit 1; }
+  {
+    echo "# 由 macapp-releases/publish.sh 生成：$TAG"
+    for f in "${FILES[@]}"; do
+      name="$(basename "$f")"
+      [[ "$name" == "$APP-$VERSION".* ]] || continue
+      echo "/download/$APP.${name#"$APP-$VERSION".} https://github.com/$REPO/releases/download/$TAG/$name 302"
+    done
+  } > "$SITE_DIR/_redirects"
+  [ -n "$APPCAST" ] && cp "$APPCAST" "$SITE_DIR/appcast.xml"
+  echo "    ✓ $SITE_DIR/_redirects$([ -n "$APPCAST" ] && echo "、$SITE_DIR/appcast.xml")"
+  if [ -n "$PAGES_PROJECT" ]; then
+    npx -y wrangler@latest pages deploy "$SITE_DIR" --project-name "$PAGES_PROJECT" --branch main --commit-dirty=true --force 2>&1 | tail -1
+  elif [ "$SITE_GIT" = true ]; then
+    git add "$SITE_DIR/_redirects" ${APPCAST:+"$SITE_DIR/appcast.xml"}
+    git diff --cached --quiet || git commit -q -m "site: 固定下载地址与 appcast 指向 $TAG" "$SITE_DIR/_redirects" ${APPCAST:+"$SITE_DIR/appcast.xml"}
+    git push -q && echo "    ✓ 已推送，官网自动部署"
+  else
+    echo "    官网未配置 PAGES_PROJECT / SITE_GIT：提交并推送 $SITE_DIR 后生效"
+  fi
 fi
 
 cat <<EOF
