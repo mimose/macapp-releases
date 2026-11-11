@@ -3,14 +3,14 @@
   <channel>
     <title>Textime</title>
     <item>
-      <title>0.1.10</title>
-      <description><![CDATA[<ul><li>Word wrap applies to the current file only and is remembered per file</li><li>Fix long lines not wrapping when word wrap is on</li></ul>]]></description>
-      <description xml:lang="zh-Hans"><![CDATA[<ul><li>自动换行只作用于当前文件，并按文件记住</li><li>修复开启自动换行后长行仍不折行</li></ul>]]></description>
-      <sparkle:version>11</sparkle:version>
-      <sparkle:shortVersionString>0.1.10</sparkle:shortVersionString>
+      <title>0.1.11</title>
+      <description><![CDATA[<ul><li>Updates are now served from the website for more reliable access</li></ul>]]></description>
+      <description xml:lang="zh-Hans"><![CDATA[<ul><li>更新源改为官网，国内网络也能检查更新</li></ul>]]></description>
+      <sparkle:version>12</sparkle:version>
+      <sparkle:shortVersionString>0.1.11</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/mimose/macapp-releases/releases/download/textime/0.1.10/Textime-0.1.10.zip" length="3274301"
-                 type="application/octet-stream" sparkle:edSignature="0etL/SVYOQ4DoMnZSvA3sFaYOcgazl6qu7FS0djdOnKAcPK2Lzagv49qiJhUDd0FnQd1q6cVKepq84o+l0TpCA=="/>
+      <enclosure url="https://github.com/mimose/macapp-releases/releases/download/textime/0.1.11/Textime-0.1.11.zip" length="3274293"
+                 type="application/octet-stream" sparkle:edSignature="sBjguea+O+969gSYjGM8VWIYLzHV3AGmEmnYMp9nBygWJUVbJwGK3PBLZmjuYKvAVAgtI3nSEP5MKpYbxH69BA=="/>
     </item>
   </channel>
 </rss>
