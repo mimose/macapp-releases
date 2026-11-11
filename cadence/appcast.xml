@@ -2,15 +2,16 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <item>
-      <title>0.2.3</title>
-      <description><![CDATA[<ul><li>The installer now explains what to do if macOS blocks the first launch: Privacy &amp; Security → Open Anyway</li><li>Installer text is now English-first with Chinese below</li><li>More reliable update flow</li></ul>]]></description>
-      <description xml:lang="zh-Hans"><![CDATA[<ul><li>安装包新增首次打开指引：被系统拦截时，按提示在「隐私与安全性」中点「仍要打开」</li><li>安装包提示改为英文优先、中文辅助</li><li>更新流程稳定性改进</li></ul>]]></description>
-      <sparkle:version>203</sparkle:version>
-      <sparkle:shortVersionString>0.2.3</sparkle:shortVersionString>
+      <title>0.2.4</title>
+      <description><![CDATA[<ul><li>New full-stage keys: press a chosen key (Enter by default) to light up the whole stage</li><li>Pick Wave, Sweep or Flash for each key, with animated previews under More in the console</li><li>Full-stage keys play only the full-stage effect, and work in recordings and replays</li><li>Esc and other function keys can be full-stage keys too</li></ul>]]></description>
+      <description xml:lang="zh-Hans"><![CDATA[<ul><li>新增全场键：按下指定的键（默认 Enter），整条演出区一起演出</li><li>每个全场键可单独选择冲击波、横扫或齐放，控制台「更多」里用动态卡片挑选</li><li>全场键只演整场演出，不叠加单键效果；录制与回放同样生效</li><li>Esc 等功能键也可设为全场键</li></ul>]]></description>
+      <sparkle:version>204</sparkle:version>
+      <sparkle:shortVersionString>0.2.4</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/mimose/macapp-releases/releases/download/cadence/0.2.3/Cadence-0.2.3.zip" length="8572701"
-                 type="application/octet-stream" sparkle:edSignature="vP8sXgtoDCKAJi9FEtoXjzlEPZ30GfpBefK5ST6JK8gma4/dPGthsz61ES/0KhwcNUKRUFIbRLqxqqker6jEBQ=="/>
+      <enclosure url="https://github.com/mimose/macapp-releases/releases/download/cadence/0.2.4/Cadence-0.2.4.zip" length="8621833"
+                 type="application/octet-stream" sparkle:edSignature="RzQnjHbs6nD6v4p9wHWFue8bC0PuQGqJnhzTHmBoRpPWXNQcfDfAUQcxPE6C9qqA5knHQrfOxLuYoYujUusaDQ=="/>
     </item>
+
 
 
 
