@@ -1,0 +1,18 @@
+[
+  {
+    "id": "cadence",
+    "name": "Cadence",
+    "url": "https://cadenceapp.mimos.top",
+    "icon": "https://cadenceapp.mimos.top/favicon.svg",
+    "zh": "打字，是一场演出：按键处升起光，还能录下来",
+    "en": "Typing, as a performance — light rises from every key"
+  },
+  {
+    "id": "textime",
+    "name": "Textime",
+    "url": "https://textimeapp.mimos.top",
+    "icon": "https://textimeapp.mimos.top/favicon.svg",
+    "zh": "安静的文本编辑器：写什么格式，就看什么样子",
+    "en": "A quiet text editor — see each format as you write"
+  }
+]
