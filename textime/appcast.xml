@@ -3,14 +3,14 @@
   <channel>
     <title>Textime</title>
     <item>
-      <title>0.1.9</title>
-      <description><![CDATA[<ul><li>In-app updates: “Check for Updates…” downloads and installs the new version; checks daily</li><li>Fix the Features menu appearing on the left</li></ul>]]></description>
-      <description xml:lang="zh-Hans"><![CDATA[<ul><li>应用内更新：「检查更新…」直接下载并替换安装，每天自动检查</li><li>修复「功能」悬浮清单位置偏到左侧</li></ul>]]></description>
-      <sparkle:version>10</sparkle:version>
-      <sparkle:shortVersionString>0.1.9</sparkle:shortVersionString>
+      <title>0.1.10</title>
+      <description><![CDATA[<ul><li>Word wrap applies to the current file only and is remembered per file</li><li>Fix long lines not wrapping when word wrap is on</li></ul>]]></description>
+      <description xml:lang="zh-Hans"><![CDATA[<ul><li>自动换行只作用于当前文件，并按文件记住</li><li>修复开启自动换行后长行仍不折行</li></ul>]]></description>
+      <sparkle:version>11</sparkle:version>
+      <sparkle:shortVersionString>0.1.10</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/mimose/macapp-releases/releases/download/textime/0.1.9/Textime-0.1.9.zip" length="3269083"
-                 type="application/octet-stream" sparkle:edSignature="tlRkRP2HKERgQDbm0pZOw4HZydd4P7KYJhBuLaSQMAlSI2nb0+3hRANG98yFzWpUBmreMvcKrDsr0TnrQsvuBg=="/>
+      <enclosure url="https://github.com/mimose/macapp-releases/releases/download/textime/0.1.10/Textime-0.1.10.zip" length="3274301"
+                 type="application/octet-stream" sparkle:edSignature="0etL/SVYOQ4DoMnZSvA3sFaYOcgazl6qu7FS0djdOnKAcPK2Lzagv49qiJhUDd0FnQd1q6cVKepq84o+l0TpCA=="/>
     </item>
   </channel>
 </rss>
