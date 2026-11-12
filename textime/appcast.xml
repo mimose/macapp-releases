@@ -3,14 +3,14 @@
   <channel>
     <title>Textime</title>
     <item>
-      <title>0.1.15</title>
-      <description><![CDATA[<ul><li>Syntax highlighting for Markdown code blocks</li><li>Math ($…$ / $$…$$) and Mermaid diagrams</li><li>Outline (⇧⌘O): headings by level, click to jump</li><li>Paste or drop images: saved to an assets folder next to the file and linked</li><li>Local file links in the preview open inside Textime; #heading anchors jump to the heading</li></ul>]]></description>
-      <description xml:lang="zh-Hans"><![CDATA[<ul><li>Markdown 代码块语法高亮</li><li>支持 $…$ / $$…$$ 数学公式与 Mermaid 图表</li><li>大纲（⇧⌘O）：按标题层级列出，点击跳转</li><li>粘贴截图或拖入图片，自动存到文件旁的 assets 目录并插入引用</li><li>预览中的本地文件链接在 Textime 内打开，#标题 锚点跳到对应位置</li></ul>]]></description>
-      <sparkle:version>16</sparkle:version>
-      <sparkle:shortVersionString>0.1.15</sparkle:shortVersionString>
+      <title>0.1.16</title>
+      <description><![CDATA[<ul><li>Jumping via the outline also scrolls the preview to the heading</li><li>With split-into-lines, Backspace at line start joins lines; ⌥/⌘ delete word / to line start and ⌃K work on every caret</li></ul>]]></description>
+      <description xml:lang="zh-Hans"><![CDATA[<ul><li>大纲跳转时预览同步滚动到对应标题</li><li>拆分为行后，退格可在行首合并行，并支持 ⌥ 删词、⌘ 删到行首、⌃K 删到行尾</li></ul>]]></description>
+      <sparkle:version>17</sparkle:version>
+      <sparkle:shortVersionString>0.1.16</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/mimose/macapp-releases/releases/download/textime/0.1.15/Textime-0.1.15.zip" length="4875241"
-                 type="application/octet-stream" sparkle:edSignature="10Xvz8RtxcibVLI7lnH0u2+Ve6D7jTvo5Of+A9AFLpxxfUBhPqKLV6HP7cij2YhCtqUKHNig90hcYC/owsFMAA=="/>
+      <enclosure url="https://github.com/mimose/macapp-releases/releases/download/textime/0.1.16/Textime-0.1.16.zip" length="4884983"
+                 type="application/octet-stream" sparkle:edSignature="VN9Owow9AhIkaCjH5HDcYDF9ESGYMkGLnqr/L0dpsyftVmNV9pUqQCzfzPJRRdbyyb4Vv4N7Yg7OaWHXmbXTDA=="/>
     </item>
   </channel>
 </rss>
