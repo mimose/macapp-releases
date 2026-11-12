@@ -3,14 +3,14 @@
   <channel>
     <title>Textime</title>
     <item>
-      <title>0.1.11</title>
-      <description><![CDATA[<ul><li>Updates are now served from the website for more reliable access</li></ul>]]></description>
-      <description xml:lang="zh-Hans"><![CDATA[<ul><li>更新源改为官网，国内网络也能检查更新</li></ul>]]></description>
-      <sparkle:version>12</sparkle:version>
-      <sparkle:shortVersionString>0.1.11</sparkle:shortVersionString>
+      <title>0.1.12</title>
+      <description><![CDATA[<ul><li>Editor and preview now scroll together; Markdown aligns by block, other formats by position</li><li>Double-click a paragraph, heading, list item, table cell or code block in the Markdown preview to edit it in place</li><li>The sidebar can be resized, and collapses to an icon-only strip when dragged narrow; double-click the divider to toggle</li><li>Confirmation dialogs keep a single-line title so buttons stay in place</li></ul>]]></description>
+      <description xml:lang="zh-Hans"><![CDATA[<ul><li>编辑与预览两侧同步滚动；Markdown 按段落对齐，其它格式按比例对齐</li><li>Markdown 预览中双击段落、标题、列表项、表格单元格或代码块可直接改字，改动写回源码</li><li>侧边栏可拖动调整宽度，拖窄后变为仅显示图标的精简版，双击分隔线切换</li><li>确认对话框标题固定单行，按钮位置不再随文件名长度变化</li></ul>]]></description>
+      <sparkle:version>13</sparkle:version>
+      <sparkle:shortVersionString>0.1.12</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/mimose/macapp-releases/releases/download/textime/0.1.11/Textime-0.1.11.zip" length="3274293"
-                 type="application/octet-stream" sparkle:edSignature="sBjguea+O+969gSYjGM8VWIYLzHV3AGmEmnYMp9nBygWJUVbJwGK3PBLZmjuYKvAVAgtI3nSEP5MKpYbxH69BA=="/>
+      <enclosure url="https://github.com/mimose/macapp-releases/releases/download/textime/0.1.12/Textime-0.1.12.zip" length="3351802"
+                 type="application/octet-stream" sparkle:edSignature="Xhmt5aKYfTEPIRUEg0iQWpYitfoF6W/U8B/GdD059vMHxEGziz7b323q+jt6Z7WATS9xpwggHYaP+j/x4hb4Cw=="/>
     </item>
   </channel>
 </rss>
