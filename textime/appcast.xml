@@ -3,14 +3,14 @@
   <channel>
     <title>Textime</title>
     <item>
-      <title>0.1.13</title>
-      <description><![CDATA[<ul><li>Double-click empty space in the top bar to zoom the window (per system setting); drag it to move the window</li><li>Each file remembers its reading position and split ratio across switches and restarts</li><li>Files changed by other apps reload automatically; with unsaved edits you choose what to keep</li><li>Faster file opening: quicker Markdown rendering, editor setup and preview loading</li><li>&quot;Keep All&quot; option in the quit confirmation</li></ul>]]></description>
-      <description xml:lang="zh-Hans"><![CDATA[<ul><li>双击顶栏空白处按系统设置缩放窗口，顶栏空白处可拖动窗口</li><li>每个文件记住阅读位置与编辑预览分栏比例，切回或重启后恢复</li><li>文件被其他程序修改时自动重新载入；有未保存修改时提示选择</li><li>打开文件更快：Markdown 渲染、编辑区初始化与预览加载均已优化</li><li>退出确认增加「全部暂留」</li></ul>]]></description>
-      <sparkle:version>14</sparkle:version>
-      <sparkle:shortVersionString>0.1.13</sparkle:shortVersionString>
+      <title>0.1.14</title>
+      <description><![CDATA[<ul><li>Fixed a blank preview when switching view modes within the same file</li></ul>]]></description>
+      <description xml:lang="zh-Hans"><![CDATA[<ul><li>修复同一文件切换视图模式时预览白屏</li></ul>]]></description>
+      <sparkle:version>15</sparkle:version>
+      <sparkle:shortVersionString>0.1.14</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/mimose/macapp-releases/releases/download/textime/0.1.13/Textime-0.1.13.zip" length="3416608"
-                 type="application/octet-stream" sparkle:edSignature="dEYFmh7eUXKXQ0NHnCt2/arNTRwx+fhqXxEKWFy/hJ5EpdJ4QQ4Xrk2vIzgfb4oIbqRrv2QQR1zXWYf/kANkDQ=="/>
+      <enclosure url="https://github.com/mimose/macapp-releases/releases/download/textime/0.1.14/Textime-0.1.14.zip" length="3414125"
+                 type="application/octet-stream" sparkle:edSignature="fsDkMnBghJCg9UDf4BMYjBKkdO0beBZQscjuQYeAtVSaHa8fybSw5lStbRrujYD1uLVhVt0uaFrWUJfTPyXACw=="/>
     </item>
   </channel>
 </rss>
