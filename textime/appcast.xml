@@ -3,14 +3,14 @@
   <channel>
     <title>Textime</title>
     <item>
-      <title>0.1.16</title>
-      <description><![CDATA[<ul><li>Jumping via the outline also scrolls the preview to the heading</li><li>With split-into-lines, Backspace at line start joins lines; ⌥/⌘ delete word / to line start and ⌃K work on every caret</li></ul>]]></description>
-      <description xml:lang="zh-Hans"><![CDATA[<ul><li>大纲跳转时预览同步滚动到对应标题</li><li>拆分为行后，退格可在行首合并行，并支持 ⌥ 删词、⌘ 删到行首、⌃K 删到行尾</li></ul>]]></description>
-      <sparkle:version>17</sparkle:version>
-      <sparkle:shortVersionString>0.1.16</sparkle:shortVersionString>
+      <title>0.1.17</title>
+      <description><![CDATA[<ul><li>The outline opens scrolled to, and marks, the heading you are currently reading</li></ul>]]></description>
+      <description xml:lang="zh-Hans"><![CDATA[<ul><li>打开大纲时自动定位并勾选当前阅读位置所在的标题</li></ul>]]></description>
+      <sparkle:version>18</sparkle:version>
+      <sparkle:shortVersionString>0.1.17</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/mimose/macapp-releases/releases/download/textime/0.1.16/Textime-0.1.16.zip" length="4884983"
-                 type="application/octet-stream" sparkle:edSignature="VN9Owow9AhIkaCjH5HDcYDF9ESGYMkGLnqr/L0dpsyftVmNV9pUqQCzfzPJRRdbyyb4Vv4N7Yg7OaWHXmbXTDA=="/>
+      <enclosure url="https://github.com/mimose/macapp-releases/releases/download/textime/0.1.17/Textime-0.1.17.zip" length="4889647"
+                 type="application/octet-stream" sparkle:edSignature="sQESKJ+JXmoQnpcXV9dsoxrp/JXoH68b2eB4ubac21haNibz9FX8MEvhQdOjzcoHV63GlrEh95tw36PlK4XQAg=="/>
     </item>
   </channel>
 </rss>
