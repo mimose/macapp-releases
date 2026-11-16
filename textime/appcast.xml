@@ -3,14 +3,14 @@
   <channel>
     <title>Textime</title>
     <item>
-      <title>0.1.17</title>
-      <description><![CDATA[<ul><li>The outline opens scrolled to, and marks, the heading you are currently reading</li></ul>]]></description>
-      <description xml:lang="zh-Hans"><![CDATA[<ul><li>打开大纲时自动定位并勾选当前阅读位置所在的标题</li></ul>]]></description>
-      <sparkle:version>18</sparkle:version>
-      <sparkle:shortVersionString>0.1.17</sparkle:shortVersionString>
+      <title>0.1.18</title>
+      <description><![CDATA[<ul><li>New SQL format: the toolbar Check button lints the whole file or the selection for syntax and risky statements (no WHERE, always-true conditions, AND in SET, INSERT column/value mismatch, missing semicolons…); click a result to jump to it</li><li>Themes replace editor color schemes: built-in Graphite, Paper, Night and Mist, plus any number of custom .theme files controlling colors and fonts of the sidebar, header, editor and preview; changes apply on save</li><li>Theme files show color swatches before each value; click one to pick a color, hover a key for its description</li><li>New files get the extension of the chosen format; dots inside names (e.g. &quot;1.SmartPushWidget&quot;) are no longer treated as extensions</li><li>Fixed the editor occasionally appearing blank after launch or after creating a theme</li></ul>]]></description>
+      <description xml:lang="zh-Hans"><![CDATA[<ul><li>新增 SQL 格式：工具栏「检查」对全文或选中语句做语法与上线风险检查（无 WHERE、恒真条件、SET 误用 AND、INSERT 列值数不一致、缺分号等），点击结果跳到对应行</li><li>主题：设置中「编辑区配色」改为主题，内置石墨、纸张、夜航、雾蓝；可新建多份 .theme 自定义主题，配置侧边栏、顶栏、编辑区、预览的颜色与字体，保存即生效</li><li>编辑主题文件时颜色值前显示色块，点击用取色器改色，悬停配置项显示说明</li><li>新建文件时按所选格式补全后缀；名称中的点（如「1.SmartPushWidget」）不再被误认为后缀</li><li>修复打开 App 或新建主题后编辑区偶尔空白</li></ul>]]></description>
+      <sparkle:version>19</sparkle:version>
+      <sparkle:shortVersionString>0.1.18</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/mimose/macapp-releases/releases/download/textime/0.1.17/Textime-0.1.17.zip" length="4889647"
-                 type="application/octet-stream" sparkle:edSignature="sQESKJ+JXmoQnpcXV9dsoxrp/JXoH68b2eB4ubac21haNibz9FX8MEvhQdOjzcoHV63GlrEh95tw36PlK4XQAg=="/>
+      <enclosure url="https://github.com/mimose/macapp-releases/releases/download/textime/0.1.18/Textime-0.1.18.zip" length="5132284"
+                 type="application/octet-stream" sparkle:edSignature="VwIYxcZLN5aRvBzLownuaGU4mR+t5tto0P0a58f61lmWCv4U3SyD6Jb5F02T9QwAZhjqZgPSv9UdjZtzdw0dCw=="/>
     </item>
   </channel>
 </rss>
