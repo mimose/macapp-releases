@@ -3,14 +3,14 @@
   <channel>
     <title>Textime</title>
     <item>
-      <title>0.1.18</title>
-      <description><![CDATA[<ul><li>New SQL format: the toolbar Check button lints the whole file or the selection for syntax and risky statements (no WHERE, always-true conditions, AND in SET, INSERT column/value mismatch, missing semicolons…); click a result to jump to it</li><li>Themes replace editor color schemes: built-in Graphite, Paper, Night and Mist, plus any number of custom .theme files controlling colors and fonts of the sidebar, header, editor and preview; changes apply on save</li><li>Theme files show color swatches before each value; click one to pick a color, hover a key for its description</li><li>New files get the extension of the chosen format; dots inside names (e.g. &quot;1.SmartPushWidget&quot;) are no longer treated as extensions</li><li>Fixed the editor occasionally appearing blank after launch or after creating a theme</li></ul>]]></description>
-      <description xml:lang="zh-Hans"><![CDATA[<ul><li>新增 SQL 格式：工具栏「检查」对全文或选中语句做语法与上线风险检查（无 WHERE、恒真条件、SET 误用 AND、INSERT 列值数不一致、缺分号等），点击结果跳到对应行</li><li>主题：设置中「编辑区配色」改为主题，内置石墨、纸张、夜航、雾蓝；可新建多份 .theme 自定义主题，配置侧边栏、顶栏、编辑区、预览的颜色与字体，保存即生效</li><li>编辑主题文件时颜色值前显示色块，点击用取色器改色，悬停配置项显示说明</li><li>新建文件时按所选格式补全后缀；名称中的点（如「1.SmartPushWidget」）不再被误认为后缀</li><li>修复打开 App 或新建主题后编辑区偶尔空白</li></ul>]]></description>
-      <sparkle:version>19</sparkle:version>
-      <sparkle:shortVersionString>0.1.18</sparkle:shortVersionString>
+      <title>0.1.19</title>
+      <description><![CDATA[<ul><li>File compare: choose two open files via Features → Compare Files (⌥⌘D) or the sidebar context menu; side-by-side view with synced scrolling highlights changed (with inline differences), deleted and added lines, with previous/next difference navigation</li><li>With no selection, ⌘C / ⌘X copy or cut the whole current line, and ⌘V pastes it above the current line</li></ul>]]></description>
+      <description xml:lang="zh-Hans"><![CDATA[<ul><li>文件对比：功能菜单「文件对比」或 ⌥⌘D 选择两份已打开的文件，也可在侧边栏右键「与当前文件对比」；左右两栏对齐显示、滚动联动，标出修改（含行内差异）、删除、新增的行，可跳到上一处 / 下一处差异</li><li>无选中时 ⌘C / ⌘X 复制或剪切光标所在整行，⌘V 粘贴到当前行之前</li></ul>]]></description>
+      <sparkle:version>20</sparkle:version>
+      <sparkle:shortVersionString>0.1.19</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/mimose/macapp-releases/releases/download/textime/0.1.18/Textime-0.1.18.zip" length="5132284"
-                 type="application/octet-stream" sparkle:edSignature="VwIYxcZLN5aRvBzLownuaGU4mR+t5tto0P0a58f61lmWCv4U3SyD6Jb5F02T9QwAZhjqZgPSv9UdjZtzdw0dCw=="/>
+      <enclosure url="https://github.com/mimose/macapp-releases/releases/download/textime/0.1.19/Textime-0.1.19.zip" length="5276073"
+                 type="application/octet-stream" sparkle:edSignature="c7Hvp3728c/KwoNgotwriZZsgoQA9W11FL8EEafrRDf4PZ1Hb9ug/JlqJJVU2MUVRaaqOcKar0jx2nZTc4mtCQ=="/>
     </item>
   </channel>
 </rss>
