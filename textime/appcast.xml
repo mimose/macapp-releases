@@ -3,14 +3,14 @@
   <channel>
     <title>Textime</title>
     <item>
-      <title>0.1.20</title>
-      <description><![CDATA[<ul><li>Find &amp; Replace: in plain mode, `</li></ul>]]></description>
-      <description xml:lang="zh-Hans"><![CDATA[<ul><li>查找与替换：普通模式下 `</li></ul>]]></description>
-      <sparkle:version>21</sparkle:version>
-      <sparkle:shortVersionString>0.1.20</sparkle:shortVersionString>
+      <title>0.1.21</title>
+      <description><![CDATA[<ul><li>Theme editing: dragging in the color picker only updates the swatch and writes the value after a pause, so it no longer stutters; open theme files no longer keep the CPU busy</li></ul>]]></description>
+      <description xml:lang="zh-Hans"><![CDATA[<ul><li>主题编辑：拖动取色器时只刷新色块，停顿后再写回文本，不再卡顿；打开主题文件时不再持续占用 CPU</li></ul>]]></description>
+      <sparkle:version>22</sparkle:version>
+      <sparkle:shortVersionString>0.1.21</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/mimose/macapp-releases/releases/download/textime/0.1.20/Textime-0.1.20.zip" length="5279499"
-                 type="application/octet-stream" sparkle:edSignature="KlWGjZIwUhLelI2aMtEedGzcfL8WskzswigDyOVJbNdIuEfFAM3lgebVD1bVeZwvrQdLeJD7ZKcqOEV415ODDw=="/>
+      <enclosure url="https://github.com/mimose/macapp-releases/releases/download/textime/0.1.21/Textime-0.1.21.zip" length="5284388"
+                 type="application/octet-stream" sparkle:edSignature="cE3ZfvEUhRJwmcbZzMgRr2wH/zlgxiREIfoC+4ZW2MFFwg6+O9mPKoSLi7/07Cn8Y3qVXOHCx4w0330VFWI9Cg=="/>
     </item>
   </channel>
 </rss>
